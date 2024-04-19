@@ -60,4 +60,8 @@ public class Coche {
         // Se asume un impuesto del 10% sobre el precio
         return precio * TASA_IMPUESTO;
     }
+    
+    public boolean anteriorA(int anio) {
+    	return (this.año < anio);
+    }
 }
