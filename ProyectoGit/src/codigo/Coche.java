@@ -47,13 +47,7 @@ public class Coche {
         this.precio = precio;
     }
 
-    // Método para mostrar por pantalla la información del coche
-    public void mostrarInformacion() {
-        System.out.println("Marca: " + marca);
-        System.out.println("Modelo: " + modelo);
-        System.out.println("Año: " + año);
-        System.out.println("Precio: " + precio);
-    }
+
 
     // Método para calcular el impuesto de un coche
     public double calcularImpuesto() {
