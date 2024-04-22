@@ -1,7 +1,7 @@
 package codigo;
 
 public class Coche {
-    private static final double TASA_IMPUESTO = 0.10;
+    private static final double TASA_IMPUESTO = 0.20;
     private String marca;
     private String modelo;
     private int año;
@@ -47,7 +47,11 @@ public class Coche {
         this.precio = precio;
     }
 
-
+@Override
+public String toString() {
+	// TODO Auto-generated method stub
+	return super.toString();
+}
 
     // Método para calcular el impuesto de un coche
     public double calcularImpuesto() {
